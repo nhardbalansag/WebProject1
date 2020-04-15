@@ -1,0 +1,160 @@
+body{
+	margin:0;
+	font-family: Arial;
+	text-transform: capitalize;
+}
+
+.b{
+	border: 1px solid black;
+}
+
+.navigations{
+	background-color: rgb(29,34,39);
+	text-align: right;
+}
+
+#dropdown{
+
+	background-color:rgb(10,15,42);
+	padding:5%;
+	height: 100%;
+}
+
+.dContentDesign{
+	border-bottom: 1px solid white;
+	
+}
+
+.dContentDesign span p{
+
+	font-size: 30px;
+	text-transform: capitalize;
+	color: white;
+}
+
+.dContentDesign span{
+
+	padding-right: 20px;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+
+.miniProd{
+	color: white;
+	font-size: 25px;
+}
+
+.miniprodCat{
+	padding-bottom: 10px;
+}
+
+#products_content{
+	width: 80%;
+	margin:auto;
+	margin-top: 10px;
+	padding:15px 5px;
+	background-color: rgba(149,176, 203, .5);
+	color: white;
+	border-radius: 5px;
+}
+
+.btnProductDetails{
+	color: black;
+	font-size: 20px;
+	padding:10px 10px;
+	border-radius: 5px;
+	border: 1px solid white;
+	background-color: 
+}
+
+.prodPartial{
+	text-align: center;
+}
+
+.prodPartial img{
+	height: 100%; 
+	width: 100%;
+	border-radius: 5px;
+}
+
+#branchInformation{
+	width: 90%;
+	margin: auto;
+	background-color:rgb(10,15,42);
+	padding:5% 0px;
+}
+
+#bi_content, #about, #talktous{
+	text-align: center;
+}
+
+#bi_content a{
+	color: white;
+	font-size: 15px;
+}
+
+.informations{
+	 border-bottom: 1px solid white;
+	 width: 90%;
+	 margin:auto;
+}
+
+#talktous p{
+	color: white;
+}
+
+.inputmobile{
+	width: 80%; 
+	margin-bottom: 20px; 
+	font-size: 20px; 
+	padding: 15px; 
+	border:1px solid gray;
+	color: gray;
+}
+
+.coloredButton{
+	font-size: 20px; 
+	color:white; 
+	background-color:rgb(56, 80, 128); 
+	padding:10px 10px; 
+	border: 1px solid rgb(56, 80, 128);
+	border-radius: 5px;
+}
+
+.label{
+	font-size: 20px; 
+	color: gray
+}
+
+
+.status{
+
+	border: none;
+	border-radius: 100%;
+	background-color: gray;
+	color:white;
+	width: 60px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.labelInfo{
+	color:rgb(56, 80, 128); 
+	font-weight: lighter;
+}
+
+.info{
+	color: black;
+}
+.tableInfo{
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+}
