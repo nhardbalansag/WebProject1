@@ -22,7 +22,6 @@ class Products
 		$this->conn = $db;
 
 	}// end of the constructor
-
 	
 	function createProductFeatures(){
 
@@ -125,21 +124,15 @@ class Products
 		$query = 'INSERT INTO product_category_type 
 					SET  
 						pct_tittle=:pct_tittle,
-						pct_description=:pct_description,
-						salt=:salt,
-						computed_hash=:computed_hash';
+						pct_description=:pct_description';
 
 		$stmt = $this->conn->prepare($query);
 
 		$this->pct_tittle = htmlspecialchars(strip_tags($this->pct_tittle));
 		$this->pct_description = htmlspecialchars(strip_tags($this->pct_description));
-		$this->salt = htmlspecialchars(strip_tags($this->salt));
-		$this->computed_hash = htmlspecialchars(strip_tags($this->computed_hash));
-
+		
 		$stmt->bindParam(':pct_tittle', $this->pct_tittle);
 		$stmt->bindParam(':pct_description', $this->pct_description);
-		$stmt->bindParam(':salt', $this->salt);
-		$stmt->bindParam(':computed_hash', $this->computed_hash);
 
 		if($stmt->execute()){
 

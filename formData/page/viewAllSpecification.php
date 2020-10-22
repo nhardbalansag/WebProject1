@@ -16,7 +16,6 @@
 			font-weight: lighter;
 			font-size: 15px;
 		}
-
 		
 	</style>
 
