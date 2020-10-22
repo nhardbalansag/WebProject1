@@ -7,7 +7,7 @@ class Database
 {
 	private $server = 'localhost';
 
-	private $db_name = 'yamaha_elective_db_1';
+	private $db_name = 'yamaha_capstone_project';
 
 	private $password = '';
 

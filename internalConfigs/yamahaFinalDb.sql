@@ -1,4 +1,4 @@
-create database yamaha_elective_db_1;
+create database yamaha_capstone_project;
 
 CREATE TABLE IF NOT EXISTS customer_information (
     ci_id INT AUTO_INCREMENT NOT NULL,
