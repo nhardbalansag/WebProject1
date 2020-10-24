@@ -1,0 +1,80 @@
+customer side
+	login
+	- email cofirmation 
+	register
+	- email confirmation
+	home 
+	manage profile/account
+		my profile
+		address book
+		payment options
+	orders
+		orders
+		returns
+		cancellations
+		reviews
+		cart
+	customer service
+		chatting system
+	document processing
+	transaction reports
+	mortgage
+
+web support
+	login
+	register
+	home/dashboad
+		graphs
+		reports
+		user reports
+		customer reports
+		inquiries reports
+		
+	profile
+		manage profile
+	mailbox
+		inbox
+		compose
+		read
+	team
+		view teams
+		view team profile
+		edit team status
+		view team handled customer
+	transaction reports
+		payment report
+		reservation report
+		order report
+		
+	products, services, maintainance
+	customers/user reports
+	
+		
+
+calls made - as part of security this is the limit of api calls
+data that calls made
+calss remaining
+version
+date
+time
+calls status
+
+
+do i still need to define the relationsips of my tables upon creation of database table or not in laravel
+
+
+API usage
+login and register
+
+
+	
+	
+	
+	
+	
+
+	
+
+
+	
+	
