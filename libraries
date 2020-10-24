@@ -1,0 +1,5 @@
+-- for sending emails
+https://github.com/PHPMailer/PHPMailer
+-- for authentication
+tecnom1k3/sp-simple-jwt
+-- jwt usage https://www.sitepoint.com/php-authorization-jwt-json-web-tokens/

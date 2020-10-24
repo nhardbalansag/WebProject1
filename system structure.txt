@@ -19,6 +19,8 @@ customer side
 	document processing
 	transaction reports
 	mortgage
+		- mortgage payment schedule
+		- mortgage payment status
 
 web support
 	login
@@ -65,6 +67,9 @@ do i still need to define the relationsips of my tables upon creation of databas
 
 API usage
 login and register
+
+
+
 
 
 	
