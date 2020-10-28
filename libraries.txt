@@ -1,0 +1,20 @@
+-- for sending emails
+https://github.com/PHPMailer/PHPMailer
+-- for authentication
+tecnom1k3/sp-simple-jwt
+-- jwt usage https://www.sitepoint.com/php-authorization-jwt-json-web-tokens/
+
+-- for testing emails
+https://mailtrap.io/inboxes/1101623/messages
+
+
+
+
+mobile app
+- ui framework
+--https://galio.io/
+
+
+
+mobile app design preference
+https://freebiesupply.com/free-sketch-mobile-design/page/4/
